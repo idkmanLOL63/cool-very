@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Arsenal Script fr",
+   Name = "Skibidi SKSKKKSKSKSKSk",
    Icon = 0,
    LoadingTitle = "LOADING OMGGGGG",
    LoadingSubtitle = "by Sirius",
