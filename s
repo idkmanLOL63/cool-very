@@ -30,6 +30,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Sense = loadstring(game:HttpGet('https://sirius.menu/sense'))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Stratxgy/Roblox-Lua-Triggerbot/refs/heads/main/Triggerbot.lua"))()
 
 local espTab = Window:CreateTab("Visuals", "eye")
 local Section = espTab:CreateSection("Esp Settings")
@@ -70,10 +71,10 @@ local Toggle = aimbotTab:CreateToggle({
 })
 
 local Toggle = aimbotTab:CreateToggle({
-   Name = "TriggerBot (very good fr)",
+   Name = "TriggerBot",
    CurrentValue = false,
    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-      loadstring(game:HttpGet('https://raw.githubusercontent.com/VapingCat/Open-Source-TriggerBot/main/script.lua'))()
+      getgenv().triggerbot.load()
    end,
 })
